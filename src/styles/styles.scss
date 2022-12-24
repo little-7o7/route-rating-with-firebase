@@ -1,0 +1,58 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.table-container {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+// *** cliendPage responsive
+// *** cliendPage responsive
+
+@media only screen and (max-width: '450px') {
+    .container {
+        .border {
+            padding: 10px 15px;
+
+            .title {
+                font-size: 18px;
+            }
+
+            .div2 {
+                margin-top: 10px;
+
+                .descr {
+                    font-size: 15px;
+                }
+
+                .div3 {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}
+
+// *** cliendPage responsive
+// *** cliendPage responsive
